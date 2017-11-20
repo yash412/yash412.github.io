@@ -1,0 +1,100 @@
+html,body{
+	height: 100%;
+  margin: 0px;
+}
+.page1 {
+    background-image: url("pop.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    background-size: cover;
+    height: 100%;
+}
+.page2 {
+	background-image: url("page3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    background-size: cover;
+    height: 100%;
+}
+.page3 {
+	background-image: url("page2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    background-size: cover;
+    height: 100%;
+}
+.navbar {
+	font-size: 30px;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 800;
+	position: fixed;
+	padding: 20%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+.navbar a {
+  float: right;
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 1%;
+  padding-right: 2%;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+.navbar a:hover {
+  color: #302F2F;
+}
+.centered {
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    font-size: 1260%;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #302F2F;
+}
+.button {
+    height: 40px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+}
+.button:hover {
+  height: 60px;
+}
+.back {
+  height: 40px;
+  position: absolute;
+  left: 15px;
+  top: 25px;
+}
+.back:hover {
+  height: 60px;
+}
+.icons {
+  height: 100px;
+  position: absolute;
+}
+.icons:hover {
+  height: 130px;
+}
+.gettouch {
+  font-size: 60px;
+  font-family: 'Aclonica';
+  color: #302F2F;
+  font-weight: 800;
+  padding: 10px; 
+  position: absolute; 
+  top: 31%; 
+  left: 9%;
+}
