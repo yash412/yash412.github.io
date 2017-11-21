@@ -2,29 +2,12 @@ html,body{
 	height: 100%;
   margin: 0px;
 }
-.page1 {
-    background-image: url("pop.jpg");
+.page {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right;
     background-size: cover;
     height: 100vh;
-}
-.page2 {
-	background-image: url("page3.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: left;
-    background-size: cover;
-    height: 100%;
-}
-.page3 {
-	background-image: url("page2.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: right;
-    background-size: cover;
-    height: 100%;
 }
 .navbar {
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -59,40 +42,34 @@ html,body{
     font-weight: 600;
     color: #302F2F;
 }
-.button {
-    height: 7vh;
+.scrolldown {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    display: block;
+    color: grey;
     position: absolute;
     bottom: 2vh;
-    left: 50%;
-}
-.button:hover {
-  height: 60px;
+    font-size: 2vh;
+    left: 47%;
 }
 .back {
-  height: 40px;
+  height: 4vh;
   position: absolute;
-  left: 15px;
-  top: 25px;
+  left: 2vh;
+  top: 2vh;
 }
 .back:hover {
-  height: 60px;
+  height: 6vh;
 }
 .icons {
-  height: 100px;
+  height: 6vh;
   position: absolute;
+  padding: 10vh;
+  filter: grayscale(100%);
 }
 .icons:hover {
-  height: 130px;
-}
-.gettouch {
-  font-size: 60px;
-  font-family: 'Aclonica';
-  color: #302F2F;
-  font-weight: 800;
-  padding: 10px; 
-  position: absolute; 
-  top: 31%; 
-  left: 9%;
+  height: 7vh;
+  filter: grayscale(0%);
 }
 .iama {
   position: absolute;
@@ -102,4 +79,50 @@ html,body{
   color: grey;
   font-family: sans-serif;
   font-weight: 800;
+}
+.contact{
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 500;
+    display: block;
+    color: grey;
+    position: absolute;
+    font-size: 5vh;
+    top: 15vh;
+    left: 34vh;
+}
+.box {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 400;
+    display: block;
+    color: grey;
+    position: absolute;
+    font-size: 2vh;
+    width: 80vh;
+    padding: 3vh;
+    border: 5px solid grey;
+    margin-left: 67vh;
+    position: absolute;
+    margin-top: 20vh;
+}
+.hopefully {
+    position: absolute;
+    bottom: 1vh;
+    right: 5vh;
+    font-size: 3vh;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.centertext {
+    position: absolute;
+    top: 20vh;
+    left: 40vh;
+    margin-left: 20vh;
+    font-size: 6vh;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+}
+
+hr {
+    margin: auto;
+    width: 55%;
 }
